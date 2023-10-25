@@ -8,8 +8,10 @@ import {
 } from 'react-native';
 import React from 'react';
 import { Feather } from '@expo/vector-icons';
+import { useNavigation } from '@react-navigation/native';
 
 const Header = () => {
+  const navigation = useNavigation();
   return (
     <View>
       <ImageBackground
@@ -39,6 +41,7 @@ const Header = () => {
         </View>
 
         <Pressable
+          onPress={() => navigation.navigate('Search')}
           style={{
             backgroundColor: 'white',
             alignItems: 'center',
@@ -80,7 +83,7 @@ const Header = () => {
               fontSize: 25,
               fontWeight: 'bold',
               textAlign: 'center',
-              marginBottom: 20
+              marginBottom: 20,
             }}
           >
             Perfect.
