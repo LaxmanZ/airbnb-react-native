@@ -13,8 +13,7 @@ export default [
     distance: '3211',
     person: 'Melati',
     review: '4.2',
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-SVI92DL2NOme23Kx_aZcIsXLnQLOcQvnLQ&usqp=CAU',
+    image: 'https://avatarfiles.alphacoders.com/831/83198.jpg',
   },
   {
     img: 'https://www.shreeinterior.in/wp-content/uploads/2017/06/New-home-room-interior-concept-HD-wallpapers.jpg',
@@ -30,6 +29,7 @@ export default [
     distance: '871',
     person: 'Sapna',
     review: '5.0',
+    image: 'https://avatarfiles.alphacoders.com/207/207935.jpg',
   },
   {
     img: 'https://links.papareact.com/uz7',
@@ -45,6 +45,7 @@ export default [
     distance: '1671',
     person: 'Cesca',
     review: '4.8',
+    image: 'https://avatarfiles.alphacoders.com/132/132680.png',
   },
   {
     img: 'https://links.papareact.com/6as',
@@ -60,6 +61,7 @@ export default [
     distance: '643',
     person: 'Badruddin',
     review: '4.3',
+    image: 'https://avatarfiles.alphacoders.com/103/1034.jpg',
   },
   {
     img: 'https://links.papareact.com/xhc',
@@ -75,6 +77,7 @@ export default [
     distance: '983',
     person: 'Wilaiwan',
     review: '4.3',
+    image: 'https://avatarfiles.alphacoders.com/174/174881.png',
   },
   {
     img: 'https://links.papareact.com/pro',
@@ -90,6 +93,7 @@ export default [
     distance: '1932',
     person: 'Sudhanva',
     review: '4.6',
+    image: 'https://avatarfiles.alphacoders.com/322/322769.png',
   },
   {
     img: 'https://links.papareact.com/8w2',
@@ -105,5 +109,6 @@ export default [
     distance: '2372',
     person: 'Aruch',
     review: '4.3',
+    image: 'https://avatarfiles.alphacoders.com/187/187895.png',
   },
 ];
