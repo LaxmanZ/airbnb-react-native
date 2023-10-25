@@ -11,12 +11,12 @@ import React from 'react';
 const Cards = () => {
   return (
     <View style={{ padding: 10 }}>
-      <Text style={{ fontSize: 22, fontWeight: '600' }}>
+      <Text style={{ fontSize: 22, fontWeight: '600', marginBottom: 10 }}>
         Inspiration For Your Next Trip
       </Text>
 
       <ScrollView
-        style={{ marginLeft: -5 }}
+        
         horizontal
         showsHorizontalScrollIndicator={false}
       >
