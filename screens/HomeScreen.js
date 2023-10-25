@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Cards from '../components/Cards';
 import Explore from '../components/Explore';
+import Experience from '../components/Experience';
 
 const HomeScreen = () => {
   return (
@@ -10,6 +11,7 @@ const HomeScreen = () => {
       <Header />
       <Cards />
       <Explore />
+      <Experience />
     </ScrollView>
   );
 };
