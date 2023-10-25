@@ -24,11 +24,7 @@ const StackNavigator = () => {
           component={ReserveScreen}
           options={{ headerTitle: '' }}
         />
-        <Stack.Screen
-          name="Confirm"
-          component={ConfirmScreen}
-          options={{ headerTitle: '' }}
-        />
+        <Stack.Screen name="Confirm" component={ConfirmScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
