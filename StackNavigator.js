@@ -6,6 +6,7 @@ import HomeScreen from './screens/HomeScreen';
 import SearchScreen from './screens/SearchScreen';
 import ReserveScreen from './screens/ReserveScreen';
 import ConfirmScreen from './screens/ConfirmScreen';
+import FinalScreen from './screens/FinalScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -25,6 +26,11 @@ const StackNavigator = () => {
           options={{ headerTitle: '' }}
         />
         <Stack.Screen name="Confirm" component={ConfirmScreen} />
+        <Stack.Screen
+          name="Final"
+          component={FinalScreen}
+          options={{ headerShown: false }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
