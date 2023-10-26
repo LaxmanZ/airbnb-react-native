@@ -3,8 +3,27 @@ import React from 'react';
 
 const FinalScreen = () => {
   return (
-    <View>
-      <Text>FinalScreen</Text>
+    <View
+      style={{
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: 'auto',
+        marginBottom: 'auto',
+      }}
+    >
+      <Text style={{ fontSize: 20 }}>
+        Hooray Your Booking has been confirmed
+      </Text>
+      <Text
+        style={{
+          fontSize: 25,
+          fontWeight: 'bold',
+          color: '#fd5c63',
+          marginTop: 5,
+        }}
+      >
+        Airbnb
+      </Text>
     </View>
   );
 };
